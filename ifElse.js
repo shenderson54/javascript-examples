@@ -7,13 +7,13 @@ let sizeOfPie = prompt('What size pie you looking for? ');
 if(sizeOfPie === 'xl'){
     totalCost = totalCost + 8;
 }
-else if( sizeOfPie === 'l'){
+else if(sizeOfPie === 'l'){
     totalCost = totalCost + 7;
 }
-else if( sizeOfPie === 'm'){
+else if(sizeOfPie === 'm'){
     totalCost = totalCost + 6;
 }
-else if( sizeOfPie === 's'){
+else if(sizeOfPie === 's'){
     totalCost = totalCost +5
 }
 console.log(totalCost)
@@ -23,7 +23,7 @@ if (cheeseAmount === 'yes') {
     totalCost = totalCost +1;
 }
 
-let toppings = prompt('What would you like on your pizza pie ');
+let toppings = prompt('What would you like on your 1 topping pizza pie? ');
 
 if(toppings === 'pepperoni'){
     totalCost = totalCost + 1.49;
